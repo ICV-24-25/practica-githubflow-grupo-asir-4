@@ -1,0 +1,40 @@
+body {
+    min-height: 100dvh;
+    font-size: 16px;
+    background-color: crimson;
+    text-align: center;
+  }
+    
+    h1,
+    h2,
+    h3,
+    h4 {
+      text-wrap: balance;
+    }
+    
+    p {
+      text-wrap: pretty;
+    }
+    
+    
+    h1 {
+      text-align: center;
+    }
+  
+    
+    button{
+      margin: 50px 0;
+      width: 100%;
+      min-height: 15vh;
+      text-transform: uppercase;
+      font-size: clamp(1rem, 1.3rem, 2rem);
+    }
+  
+    /* Esto crea un sombreado sobre la carta o targeta*/
+    .wiki-card {
+      background: rgba(100, 20, 255);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      margin: 10px;
+    }
